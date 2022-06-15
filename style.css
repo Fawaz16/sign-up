@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+    background-color: rgb(194, 65, 65);
+    padding-bottom: 70px;
+}
+.a-text{
+    padding-top: 70px;
+    background-color: rgb(194, 65, 65);
+    color: aliceblue;
+   
+}
+.a-text h1{
+    width: 60%;
+    padding-left: 100px;
+    padding-bottom:30px ;
+    line-height: 30px;
+}
+.a-text p{
+    text-align: center;
+    padding: 20px;
+}
+.a2-text p{
+padding: 10px;
+}
+.a2-text{
+    background-color: indigo;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+form{
+    background-color: rgb(243, 243, 243);
+    margin: 40px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+
+}
+form input{
+    width: 90%;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+    left: -14px;
+    border: 1px solid lightgray;
+
+}
+form button{
+    width: 190px;
+    height: 40px;
+    background-color: rgb(104, 173, 0);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+@media(min-width:765px){
+    .a-text{
+        padding-top: 70px;
+        background-color: rgb(194, 65, 65);
+        color: aliceblue;
+        position: relative;
+        top: 120px;
+       
+    }
+    .a-text h1{
+        width: 20%;
+        font-size: 30px;
+        padding-left: 100px;
+        padding-bottom:30px ;
+        line-height: 30px;
+    }
+    .a-text p{
+        text-align: center;
+        padding: 10px;
+        width: 40%;
+        margin-left: 70px;
+        
+      
+    }
+    .a2-text p{
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    left: -70px;
+    }
+    .a2-text{
+        background-color: indigo;
+        max-width: 700px;
+        height: 40px;
+        position: absolute;
+        top: -30px;
+        left: 770px;
+    }
+    form{
+        background-color: rgb(243, 243, 243);
+        margin: 40px;
+        position: relative;
+        padding: 20px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        max-width: 500px;
+        left: 630px;
+        bottom: 200px;
+    
+    
+    }
+    form input{
+        width: 90%;
+        padding: 15px;
+        margin: 20px;
+        position: relative;
+        left: -14px;
+        border: 1px solid lightgray;
+    
+    }
+    form button{
+        width: 190px;
+        height: 40px;
+        background-color: rgb(104, 173, 0);
+        color: aliceblue;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
